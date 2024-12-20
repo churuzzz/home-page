@@ -3,7 +3,7 @@ import { RouterView, RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <nav class="flex flex-row gap-10 p-5 text-xl bg-cyan-950 text-white">
+  <nav class="flex flex-row gap-10 p-5 text-xl bg-steel_blue-500 text-white">
     <div class="bg-black p-4 rounded-full"></div> <!--This is a placeholder for my pfp-->
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/about">About</RouterLink>
