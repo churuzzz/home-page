@@ -4,12 +4,11 @@ import { RouterView, RouterLink } from 'vue-router';
 
 <template>
   <nav class="flex flex-row gap-10 p-5 text-xl bg-steel_blue-500 text-white">
-    <div class="bg-black p-4 rounded-full"></div> <!--This is a placeholder for my pfp-->
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <RouterLink to="/contact">Contact</RouterLink>
   </nav>
-  <main>
+  <main class="bg-steel_blue-400">
     <RouterView />
   </main>
 </template>
