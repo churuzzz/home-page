@@ -1,10 +1,12 @@
 <script setup>
 import Banner from '../components/Banner.vue';
+import Bio from '../components/Bio.vue';
+import ProjectsSection from '../components/ProjectsSection.vue';
 </script>
 
 <template>
     <Banner/>
-    <h1>Bio</h1>
-    <h1>Projects</h1>
+    <Bio/>
+    <ProjectsSection/>
     <h1>Contact</h1>
 </template>
