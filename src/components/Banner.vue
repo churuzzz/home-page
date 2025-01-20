@@ -1,17 +1,10 @@
 <template>
-    <section class="bg-steel_blue-300 p-20 flex flex-row justify-between">
-        <div class="text-3xl leading-loose">
-            <h1 class="font-bold text-6xl">JESUS RUIZ RAMOS</h1>
-            <div>
-                <a 
-                    class="link__email"
-                    href="mailto:ruizramos04@outlook.com"
-                    >personal email</a> 
-                <p class="inline m-2 align-middle">&#124;</p> 
-                <a 
-                    class="link__email"
-                    href="mailto:jesus.ruizramos@louisville.edu"
-                    >school email</a>
+    <section class="bg-gradient-to-b to-steel_blue-300 from-emerald-600 px-20 py-40 flex flex-row justify-between">
+        <div>
+            <h1 class="font-bold text-8xl">JESUS RUIZ RAMOS</h1>
+            <div class="flex flex-row gap-4 font-bold">
+                <h1>churuizramos</h1>
+                <h1>churuzz</h1>
             </div>
         </div>
         <div class="m-8 p-3 rounded-full flex flex-row bg-white">
@@ -22,9 +15,3 @@
         </div>
     </section>
 </template>
-
-<style scoped>
-.link__email {
-    @apply bg-white align-middle rounded-full px-4 py-2 transition-all hover:bg-steel_blue-500 hover:text-white;
-}
-</style>
