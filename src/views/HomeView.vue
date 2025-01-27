@@ -1,6 +1,7 @@
 <script setup>
 import Banner from '../components/Banner.vue';
 import Bio from '../components/Bio.vue';
+import ContactSection from '../components/ContactSection.vue';
 import ProjectsSection from '../components/ProjectsSection.vue';
 </script>
 
@@ -8,5 +9,5 @@ import ProjectsSection from '../components/ProjectsSection.vue';
     <Banner/>
     <Bio/>
     <ProjectsSection/>
-    <h1>Contact</h1>
+    <ContactSection/>
 </template>
