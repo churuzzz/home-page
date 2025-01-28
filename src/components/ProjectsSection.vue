@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard.vue';
 </script>
 
 <template>
-    <div class="bg-white px-20 py-10 ">
+    <div class="bg-slate-300 px-20 py-10 ">
         <h1 class="text-3xl font-bold text-center">Projects</h1>
         <section>
             <ProjectCard

@@ -1,22 +1,36 @@
 <template>
-    <section class="flex flex-col p-20 gap-8">
-        <div class="flex flex-row gap-3">
-            <h1 class="text-red-400 text-2xl font-bold">University of Louisville | Computer Science and Engineering</h1>
-            <a 
-                class="link__email"
-                href="mailto:ruizramos04@outlook.com"
-                >personal email</a> 
-            <a 
-                class="link__email"
-                href="mailto:jesus.ruizramos@louisville.edu"
-                >school email</a>
-        </div>
-        <h1 class="text-white text-2xl">Nice to meet you. I'm Jesus. Computer Engineering student at the University of Louisville. I love all things computers from making things with them as well as learning all the things that can be done with them. You can also find my photography on Instagram!</h1>
+    <section class="flex flex-col gap-4 px-4 py-10 md:px-40">
+        <h1 class="text-white text-2xl md:text-4xl">
+            Computer engineering student. Aspiring game developer. My favorite
+            languages are C and C++. Focused on integrated systems/firmware with
+            a pepper of web development.
+        </h1>
+        <!-- <div class="flex md:flex-row flex-col gap-4">
+            <div class="text-white">
+                <h1>Favorite Games</h1>
+                <ul>
+                    <li>Halo 3</li>
+                    <li>Need for Speed: Most Wanted</li>
+                    <li>Destiny 2</li>
+                </ul>
+            </div>
+            <div class="text-white">
+                <h1>Favorite Movies</h1>
+                <ul>
+                    <li>Star Wars Revenge of the Sith</li>
+                    <li>Cars</li>
+                    <li>Pacific Rim</li>
+                </ul>
+            </div>
+        </div> -->
     </section>
 </template>
 
 <style scoped>
-.link__email {
-    @apply bg-white align-middle rounded-full px-4 py-2 transition-all hover:bg-steel_blue-500 hover:text-white;
+li {
+    @apply lg:float-left float-none bg-white text-black my-2 mx-auto p-2 rounded-full;
+}
+div h1 {
+    @apply text-2xl;
 }
 </style>

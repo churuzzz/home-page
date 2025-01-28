@@ -8,7 +8,6 @@ import { RouterView, RouterLink } from "vue-router";
     >
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
     </nav>
     <main class="bg-steel_blue-400">
         <RouterView />
