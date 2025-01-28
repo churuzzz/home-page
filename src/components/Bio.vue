@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col gap-4 px-4 py-10 md:px-40">
+    <section class="bg-steel_blue-500 flex flex-col gap-4 px-4 py-10 md:px-40">
         <h1 class="text-white text-2xl md:text-4xl">
             Computer engineering student. Aspiring game developer. My favorite
             languages are C and C++. Focused on integrated systems/firmware with

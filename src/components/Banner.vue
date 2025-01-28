@@ -1,8 +1,10 @@
 <template>
     <section
-        class="bg-slate-300 px-20 py-40 flex flex-col justify-between gap-4 content-center"
+        class="bg-zinc-800 px-20 py-40 flex flex-col justify-between gap-4 content-center"
     >
-        <h1 class="font-bold md:text-8xl text-6xl text-center">CHURUZZZ</h1>
+        <h1 class="font-bold text-white md:text-8xl text-6xl text-center">
+            CHURUZZZ
+        </h1>
         <div class="m-8 p-3 rounded-full flex flex-row bg-white m-auto">
             <a href="https://github.com/churuizramos" target="_blank"
                 ><img
