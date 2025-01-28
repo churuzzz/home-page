@@ -9,5 +9,4 @@ import ProjectsSection from "../components/ProjectsSection.vue";
     <Banner />
     <Bio />
     <ProjectsSection />
-    <ContactSection />
 </template>
